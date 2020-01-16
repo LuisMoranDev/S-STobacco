@@ -98,87 +98,26 @@ body{
 	opacity: 0.5;
 }
 
-
-
-
-/*MENU */
-
-#menu{
-	background-color: #2eb872;
+/*About Us */
+#aboutUs{
+	background-color: #fafafa;
+	text-align: center; 
+	color: #10316b;
+	position: relative;
 	padding: 3% 10%;
-	text-align: center;
-	color: #fafafa;
-
 }
 
-#menu h1{
-	font-family: 'Lobster',cursive;
+#aboutUs h1{
+	font-family: 'Gelasio', serif;
 	font-size: 5em;
 }
 
-#menu .container{
-	background-color: #fafafa;
-	width: 100%;
-	border-radius: 25px;
+#aboutUs .box{
+	width: 45%;
+	height: auto;
+	margin: 0 auto;
 }
 
-#menu .menuItems{
-	font-family: 'Lobster',cursive;
-
-}
-#menu .table{
-	font-size: 1.2em;
-	font-weight: bold;
-}
-#menu thead{
-	font-size: 1.5em;
-}
-#menu .fas .fa-map{
-	padding-top: 10px;
-	color: #fafafa;
-}
-#link i{
-	padding-top: 20px;
-}
-#link a:link{
-	text-decoration: none;
-	color: #fafafa;
-}
-#link a:active{
-	text-decoration: none;
-	color: #fafafa;
-}
-
-#link a:visited{
-	text-decoration: none;
-	color: #fafafa;
-}
-
-/*CATERING AND PLATTERS */
-
-#catering {
-	background-color: #ff0000;
-	padding: 3% 10%;
-	color: #fafafa;
-	text-align: center;
-}
-#catering h1{
-		font-family: 'Lobster',cursive;
-		font-size: 5em;
-		padding-bottom: 20px;
-}
-#catering .container{
-	width: 80%;
-	border-radius: 50px;
-	padding: 0;
-
-}
-
-#catering img{
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-}
 
 /*FOOTER*/
 #footer{
@@ -205,20 +144,56 @@ body{
 	}
 
 @media only screen and (max-width: 500px){
+			#top .sam{
+			font-size: 1.25em;
+	 		}
 			#home h1{
 				font-size: 2em;
 			}
 			#home h2{
-				
 				font-size: 1.5em;
+			}
+			#aboutUs h1{
+				font-size: 2em;
+			}
+			#aboutUs h2{
+				font-size: 1.5em;
+			}
+			#aboutUs .box{
+				width: 100%;
 			}
 			#footer h1{
 				font-size: 1.5em;
 			}
 }
 
-@media only screen and (max-width: 500px){
-		#top .sam{
-			font-size: 1.25em;
+@media only screen and (max-width: 400px){
+	#top .sam{
+		font-size: 1em;
 		 }
+		 #aboutUs h1{
+			font-size: 2em;
+		}
+		#aboutUs h2{
+			font-size: 1.5em;
+		}
+	#aboutUs .box{
+			width: 100%;
+		}
+}
+
+@media only screen and (max-width: 330px){
+	#top .sam{
+		font-size: .75em;
+		 }
+		 #aboutUs h1{
+			font-size: 2em;
+		}
+		#aboutUs h2{
+			font-size: 1.5em;
+		}
+	#aboutUs .box{
+			width: 100%;
+		}
+
 }
